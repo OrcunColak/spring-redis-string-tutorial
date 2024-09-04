@@ -1,4 +1,4 @@
-package com.colak.springtutorial.stringvalue.config;
+package com.colak.springtutorial.stringvalue.config.lettuce.standalone;
 
 import io.lettuce.core.ClientOptions;
 import io.lettuce.core.SslOptions;
@@ -14,7 +14,7 @@ import java.io.IOException;
 
 @Configuration
 @RequiredArgsConstructor
-public class LettuceConnectionFactoryConfig {
+public class LettuceConnectionFactorySslConfig {
 
     private boolean sslEnabled;
 
